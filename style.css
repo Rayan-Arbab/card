@@ -1,0 +1,155 @@
+@font-face {
+    font-family: nunito;
+    src: url(Nunito/Nunito-VariableFont_wght.ttf);
+}
+body{
+    font-family: nunito;
+    background:linear-gradient(to right, #f3dbd6,#f2f5df) ;
+}
+.card{
+    width: 450px;
+    height: 580px;
+    border-radius: 30px;
+    border: 2px solid #c5c9a5;
+    margin: 90px auto;
+    box-shadow: 0 8px 20px rgb(53, 53, 53);
+}
+.card img{
+   width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: thick double #e7b95e;
+    box-shadow: 2px 4px 20px rgb(59, 59, 59);
+    position: absolute;
+    top: 160px;
+    left: 45%;
+}
+.card-one{
+    width: 450px;
+    height: 170px;
+    background-color: #f7f1e5;
+    border-radius:30px 30px 0 0;
+}
+.card-two{
+    background-color: #45494b;
+    width: 450px;
+    height: 330px;
+    border-radius:0 0 30px 30px ;
+    text-align: center;
+    padding-top: 80px;
+}
+.card-two h2{
+    margin: 0;
+    font-size: 35px;
+    color: #fffdf7;
+}
+.card-two i{
+    color: #f3a99b;
+}
+.card-two p{
+    font-size: 20px;
+    color: #e5e1d8;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    padding: 0;
+    margin-left: -37px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    padding: 0;
+    margin-left: -35px;
+}
+.icons i{
+        width: 29px;
+    height: 29px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5d6437;
+    font-size: 19px;
+}
+.hero-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 10px;
+    padding: 22px;
+}
+.two p{
+    background-color:  #fba998;
+     color: white;
+     width: 120px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 30px;
+    box-shadow: 0 8px 12px #4d503e;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.three p{
+    background-color: #dec49f;
+    width: 120px;
+    color: #372b13;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: 0 8px 12px #4d503e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 2px;
+}
+.hero-one p:hover{
+    transform: translateX(1.05);
+    transition: 0.3s;
+    background-color: #ffccc2;
+    color: #000;
+    box-shadow:0 4px 10px rgb(57, 57, 57);
+    cursor: pointer;
+}
+.hero-one i{
+    color: #655941;
+    font-size: 14px;
+}
+.hero-two{
+    width: 330px;
+    height: 60px;
+    border: 3px dashed #e6cc9e;
+    margin: auto;
+    margin-top: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+.one p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ffeecb;
+}
+.icons i:hover{
+    background: linear-gradient(135deg, #f8e3b9, #f6baae, #c3cb88);
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: 0 2px 10px rgb(150, 150, 150);
+}
